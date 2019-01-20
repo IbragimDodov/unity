@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>unity</title>
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     </head>
     <body>
@@ -125,23 +126,53 @@
 					<img src="" alt="">
 					
 					<!-- ТУТ НУЖНО СДЕЛАТЬ СЛАЙДЕРЫ -->
-					<div class="slides">
-						<div class="img_slides">
-							<img class="mySlides" src="images/slide-1.jpg">
-							<img class="mySlides" src="images/slide-3.jpg">
-							<img class="mySlides" src="images/slide-1.jpg">
-							<img class="mySlides" src="images/slide-2.jpg">
-							<img class="mySlides" src="images/slide-3.jpg">
-						</div>
-
-						<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-						<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+					<div class="carousel-wrap">
+					  <div class="owl-carousel">
+					    <div class="item">
+					    	<img src="images/slide-1.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<img src="images/slide-2.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<img src="images/slide-3.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<img src="images/slide-1.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<img src="images/slide-2.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					    <div class="item">
+					    	<img src="images/slide-3.jpg">
+					    	<div class="item-text">
+					    		<p>Apex Magazine <br>June Issue</p>
+								<p class="item-text__autor">by Fabrizio Morra</p>
+					    	</div>
+					    </div>
+					  </div>
 					</div>
 					<!-- ТУТ НУЖНО СДЕЛАТЬ СЛАЙДЕРЫ -->
-
-					<p>Apex Magazine June Issue</p>
-					<p>by Fabrizio Morra</p>
-
 
 				</div>
 
@@ -202,7 +233,8 @@
 
     		</div>
     	</footer>
-
+		<script src="js/jquery.js"></script>
+  		<script src="js/owl.carousel.min.js"></script>
   		<script src="js/slide.js"></script>
     </body>
 </html>
