@@ -473,7 +473,8 @@ span {
 /* end fix */
 .owl-nav {
   position: absolute;
-  top: 50%;
+  top: 30%;
+  transform: translateY(-50%);
   color: #cdcbcd;
   width: 100%
 }
@@ -484,6 +485,7 @@ span {
 	border-radius: 50%;
 	border: 1px solid #000!important;
 	position: absolute;
+	outline: none;
 }
 .owl-nav i {
   font-size: 52px;
@@ -495,6 +497,28 @@ span {
 	height: 90px;
 	border-radius: 50%;
 	border: 1px solid #000;
+}
+
+.owl-prev:before, .owl-next:before {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	top: 5px;
+}
+
+.owl-prev:before {
+	left: 30px;
+    transform: rotate(135deg);
+    top: 19px;
+}
+
+.owl-next:before {
+	right: 30px;
+    transform: rotate(-45deg);
+    top: 19px;
 }
 
 .owl-nav .owl-next {
